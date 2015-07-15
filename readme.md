@@ -6,7 +6,7 @@ CSS:
 
 - [x] Process Sass via libsass
 - [ ] Compress CSS in production, and produce source maps in development
-- [ ] Enable autoprefixer
+- [x] Enable autoprefixer
 
 Templates:
 
