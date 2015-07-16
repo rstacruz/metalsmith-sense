@@ -7,7 +7,6 @@ function fixture (name) {
   return path.join(__dirname, '../../fixtures', name)
 }
 
-fixture.file = function (name, fname) {
-  var fpath = path.join(fixture(name), fname)
-  return fs.readFileSync(fpath, 'utf-8')
+fixture.file = function (name) {
+  return fs.readFileSync(fixture(name), 'utf-8')
 }
