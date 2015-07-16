@@ -21,7 +21,3 @@ JavaScript:
 - [ ] `require()` support via Browserify
 - [ ] ES6 transpiling support via Babel
 - [ ] Compress JavaScript in production
-
-Dev server:
-
-- [ ] LiveReload-enabled dev server
