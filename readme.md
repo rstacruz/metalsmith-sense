@@ -2,6 +2,8 @@
 
 A batteries-included distribution of metalsmith available as a plugin.
 
+[![Status](https://travis-ci.org/rstacruz/metalsmith-battery.svg?branch=master)](https://travis-ci.org/rstacruz/metalsmith-battery "See test builds")
+
 CSS:
 
 - [x] Process Sass via libsass
