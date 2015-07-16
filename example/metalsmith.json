@@ -6,11 +6,6 @@
     "description": "My second, super-cool, Jekyll-powered blog."
   },
   "plugins": {
-    "../lib": {},
-    "metalsmith-markdown": {},
-    "metalsmith-templates": {
-      "engine": "jade",
-      "directory": "layouts"
-    }
+    "../lib": {}
   }
 }
