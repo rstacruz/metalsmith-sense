@@ -3,7 +3,7 @@ var fixture = require('../support/fixture')
 var build = require('../support/build')
 var data
 
-describe('sass', function () {
+describe('fixture/sass:', function () {
   build(fixture('sass'))
 
   before(function () {

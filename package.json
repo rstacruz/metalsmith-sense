@@ -13,9 +13,11 @@
     "ware": "^1.3.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "clean": "rm -rf fixtures/*/public"
   },
   "devDependencies": {
+    "bootstrap-sass": "^3.3.5",
     "expect": "^1.6.0",
     "metalsmith": "^1.7.0",
     "mocha": "^2.2.5",
