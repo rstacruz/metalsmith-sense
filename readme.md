@@ -15,8 +15,11 @@ Templates:
 - [x] Markdown support
 - [x] Templates
 - [ ] Jade templates support
-- [ ] Handlebars templates support
-- [ ] Jade and Handlebars partials
+- [x] Handlebars templates support
+- [x] Jade pages support
+- [ ] Handlebars pages support
+- [ ] Jade partials
+- [ ] Handlebars partials
 
 JavaScript:
 
