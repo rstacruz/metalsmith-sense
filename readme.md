@@ -19,7 +19,7 @@ Templates:
 - [x] Jade pages support
 - [ ] Handlebars pages support
 - [ ] Jade partials
-- [ ] Handlebars partials
+- [x] Handlebars partials
 
 JavaScript:
 
