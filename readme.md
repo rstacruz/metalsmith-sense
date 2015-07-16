@@ -26,3 +26,49 @@ JavaScript:
 - [ ] `require()` support via Browserify
 - [ ] ES6 transpiling support via Babel
 - [ ] Compress JavaScript in production
+
+<br>
+
+## Quick start
+
+Easy:
+
+```
+curl http://whatever | sh -
+```
+
+Hard mode:
+
+```js
+npm init
+npm install --save metalsmith metalsmith-battery metalsmith-start
+```
+
+```js
+// metalsmith.json
+{
+  "source": "./src",
+  "destination": "./public",
+  "plugins": "{
+    "../../lib": {}
+  }
+}
+```
+
+```js
+// package.json
+{
+  ...
+  "scripts": {
+    "build": "metalsmith",
+    "start": "metalsmith-start"
+  }
+}
+```
+
+Run:
+
+``` sh
+npm run build    # build output (production)
+npm run start    # start server (development)
+```
