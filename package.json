@@ -15,11 +15,13 @@
   },
   "scripts": {
     "test": "mocha",
-    "clean": "rm -rf fixtures/*/public"
+    "clean": "rm -rf fixtures/*/public",
+    "coverage": "istanbul cover _mocha -- -R spec"
   },
   "devDependencies": {
     "bootstrap-sass": "^3.3.5",
     "expect": "^1.6.0",
+    "istanbul": "^0.3.17",
     "metalsmith": "^1.7.0",
     "mocha": "^2.2.5",
     "mocha-standard": "^1.0.0",
