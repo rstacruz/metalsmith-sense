@@ -1,4 +1,4 @@
-/* global describe, it, expect */
+/* global describe, it, expect, before */
 var fixture = require('../support/fixture')
 var build = require('../support/build')
 var data
