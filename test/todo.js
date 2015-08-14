@@ -8,11 +8,13 @@ describe('to do', function () {
   describe('html', function () {
     it('Markdown support', done)
     it('Templates', done)
-    it('Jade templates support')
+    it('Jade templates support', done)
+    it('Jade templates support - test')
     it('Handlebars templates support', done)
     it('Jade pages support', done)
     it('Handlebars pages support')
-    it('Jade partials')
+    it('Jade partials', done)
+    it('Jade partials - test')
     it('Handlebars partials', done)
   })
 
@@ -25,3 +27,21 @@ describe('to do', function () {
 
 function done () {
 }
+
+/*
+bfy:
+
+.use(require('metalsmith-bfy'))
+
+browserify/bfy.js:
+
+```
+var browserify = require('browserify')
+var babelify = require('babelify')
+
+module.exports = function (files) {
+  return browserify(files)
+    .transform(babelify)
+}
+```
+*/

@@ -23,38 +23,19 @@
 
 ## Quick start
 
-Easy:
-
-```
-curl http://whatever | sh -
-```
-
-Hard mode:
-
 ```js
 npm init
 npm install --save metalsmith metalsmith-sense metalsmith-start
+wget "https://raw.githubusercontent.com/rstacruz/metalsmith-sense/master/example/index.js" -O index.js
 ```
 
-```js
-// metalsmith.json
-{
-  "source": "./src",
-  "destination": "./public",
-  "plugins": "{
-    "metalsmith-sense": {}
-  }
-}
-```
+Update `package.json`:
 
 ```js
-// package.json
-{
-  ...
-  "scripts": {
-    "build": "metalsmith",
-    "start": "metalsmith-start"
-  }
+...
+"scripts": {
+  "build": "index.js",
+  "start": "metalsmith-start"
 }
 ```
 
@@ -64,5 +45,13 @@ Run:
 npm run build    # build output (production)
 npm run start    # start server (development)
 ```
+
+<br>
+
+* Put stuff into `src/`, they will be copied into `public/`
+* `*.hbs` will be compiled using Handlebars
+* `*.jade` will be complied using Jade
+* `*.sass` and `*.scss` will be complied using Sass
+* `*.css` will be vendor-prefixed
 
 [Metalsmith]: http://metalsmith.io/
