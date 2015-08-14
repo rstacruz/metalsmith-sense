@@ -42,7 +42,7 @@ npm install --save metalsmith metalsmith-sense metalsmith-start
   "source": "./src",
   "destination": "./public",
   "plugins": "{
-    "../../lib": {}
+    "metalsmith-sense": {}
   }
 }
 ```
