@@ -9,7 +9,6 @@ describe('to do', function () {
     it('Markdown support', done)
     it('Templates', done)
     it('Jade templates support', done)
-    it('Jade templates support - test')
     it('Handlebars templates support', done)
     it('Jade pages support', done)
     it('Handlebars pages support')
