@@ -1,6 +1,8 @@
 var Metalsmith = require('metalsmith')
 
 var app = Metalsmith(__dirname)
+  .source('./src')
+  .destination('./public')
   .use(require('../../lib'))
 
 if (module.parent) {
