@@ -44,7 +44,7 @@
     "static"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rstacruz/metalsmith-sense.git"
