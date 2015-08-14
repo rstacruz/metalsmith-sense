@@ -6,40 +6,18 @@
 
 [Metalsmith] is a very useful static-site generator with almost all functionality provided by plugins. Most of the time, you will need the same set of functionality out of a site builder:
 
-* CSS: compile using a modern pre-processor when needed. (*.sass, *.styl)
-* CSS: don't worry about vendor prefixes. (autoprefixer)
-* CSS: compress in production.
-* HTML: compile from modern templating languages. (handlebars, jade)
-* HTML: support for layout templates. (layouts/)
-* HTML: support for partials. (partials/)
-* JS: a reasonable build system.
-* JS: transpile using modern babel.
-* JS: compress in production.
-
-[Metalsmith]: http://metalsmith.io/
-
-CSS:
-
-- [x] Process Sass via libsass
-- [ ] Compress CSS in production, and produce source maps in development
-- [x] Enable autoprefixer
-
-Templates:
-
-- [x] Markdown support
-- [x] Templates
-- [ ] Jade templates support
-- [x] Handlebars templates support
-- [x] Jade pages support
-- [ ] Handlebars pages support
-- [ ] Jade partials
-- [x] Handlebars partials
-
-JavaScript:
-
-- [ ] `require()` support via Browserify
-- [ ] ES6 transpiling support via Babel
-- [ ] Compress JavaScript in production
+* CSS:
+  * compile using a modern pre-processor when needed. (*.sass, *.styl)
+  * don't worry about vendor prefixes. (autoprefixer)
+  * compress in production.
+* HTML:
+  * compile from modern templating languages. (handlebars, jade)
+  * support for layout templates. (layouts/)
+  * support for partials. (partials/)
+* JavaScript:
+  * a reasonable build/concat system.
+  * transpile using modern babel.
+  * compress in production.
 
 <br>
 
@@ -55,7 +33,7 @@ Hard mode:
 
 ```js
 npm init
-npm install --save metalsmith metalsmith-battery metalsmith-start
+npm install --save metalsmith metalsmith-sense metalsmith-start
 ```
 
 ```js
@@ -86,3 +64,5 @@ Run:
 npm run build    # build output (production)
 npm run start    # start server (development)
 ```
+
+[Metalsmith]: http://metalsmith.io/
