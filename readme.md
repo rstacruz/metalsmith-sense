@@ -1,8 +1,22 @@
 # metalsmith-sense
 
-A batteries-included distribution of metalsmith available as a plugin.
+> A batteries-included distribution of metalsmith available as a plugin.
 
 [![Status](https://travis-ci.org/rstacruz/metalsmith-battery.svg?branch=master)](https://travis-ci.org/rstacruz/metalsmith-battery "See test builds")
+
+[Metalsmith] is a very useful static-site generator with almost all functionality provided by plugins. Most of the time, you will need the same set of functionality out of a site builder:
+
+* CSS: compile using a modern pre-processor when needed. (*.sass, *.styl)
+* CSS: don't worry about vendor prefixes. (autoprefixer)
+* CSS: compress in production.
+* HTML: compile from modern templating languages. (handlebars, jade)
+* HTML: support for layout templates. (layouts/)
+* HTML: support for partials. (partials/)
+* JS: a reasonable build system.
+* JS: transpile using modern babel.
+* JS: compress in production.
+
+[Metalsmith]: http://metalsmith.io/
 
 CSS:
 
