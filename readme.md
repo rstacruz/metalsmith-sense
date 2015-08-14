@@ -1,4 +1,4 @@
-# metalsmith-battery
+# metalsmith-sense
 
 A batteries-included distribution of metalsmith available as a plugin.
 

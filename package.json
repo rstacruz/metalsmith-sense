@@ -1,10 +1,10 @@
 {
-  "name": "metalsmith-battery",
+  "name": "metalsmith-sense",
   "description": "A batteries-included distribution of metalsmith available as a plugin.",
   "version": "0.0.1",
   "author": "Rico Sta. Cruz <rico@ricostacruz.com>",
   "bugs": {
-    "url": "https://github.com/rstacruz/metalsmith-battery/issues"
+    "url": "https://github.com/rstacruz/metalsmith-sense/issues"
   },
   "dependencies": {
     "deep-readdir": "^0.2.0",
@@ -37,7 +37,7 @@
     "example": "example",
     "test": "test"
   },
-  "homepage": "https://github.com/rstacruz/metalsmith-battery#readme",
+  "homepage": "https://github.com/rstacruz/metalsmith-sense#readme",
   "keywords": [
     "jekyll",
     "metalsmith",
@@ -47,7 +47,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rstacruz/metalsmith-battery.git"
+    "url": "git+https://github.com/rstacruz/metalsmith-sense.git"
   },
   "scripts": {
     "clean": "rm -rf fixtures/*/public",
