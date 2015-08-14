@@ -2,7 +2,7 @@
 
 > A batteries-included distribution of metalsmith available as a plugin.
 
-[![Status](https://travis-ci.org/rstacruz/metalsmith-battery.svg?branch=master)](https://travis-ci.org/rstacruz/metalsmith-battery "See test builds")
+[![Status](https://travis-ci.org/rstacruz/metalsmith-sense.svg?branch=master)](https://travis-ci.org/rstacruz/metalsmith-sense "See test builds")
 
 [Metalsmith] is a very useful static-site generator with almost all functionality provided by plugins. Most of the time, you will need the same set of functionality out of a site builder:
 
