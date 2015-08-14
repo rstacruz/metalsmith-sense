@@ -25,8 +25,7 @@
 
 ```js
 npm init
-npm install --save metalsmith metalsmith-sense
-npm install --save-dev metalsmith-start
+npm install --save metalsmith metalsmith-sense metalsmith-start
 wget "https://raw.githubusercontent.com/rstacruz/metalsmith-sense/master/example/metalsmith.js" -O metalsmith.js
 ```
 
@@ -43,8 +42,8 @@ Update `package.json`:
 Run:
 
 ``` sh
+npm start           # start server (development)
 npm run prepublish  # build output (production)
-npm run start       # start server (development)
 ```
 
 [Metalsmith]: http://metalsmith.io/
