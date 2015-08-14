@@ -35,7 +35,7 @@ Update `package.json`:
 ```js
 ...
 "scripts": {
-  "build": "index.js",
+  "prepublish": "node metalsmith.js",
   "start": "metalsmith-start"
 }
 ```
@@ -43,8 +43,8 @@ Update `package.json`:
 Run:
 
 ``` sh
-npm run build    # build output (production)
-npm run start    # start server (development)
+npm run prepublish  # build output (production)
+npm run start       # start server (development)
 ```
 
 [Metalsmith]: http://metalsmith.io/
