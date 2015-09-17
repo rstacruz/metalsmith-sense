@@ -3,7 +3,9 @@ var Metalsmith = require('metalsmith')
 var app = Metalsmith(__dirname)
   .source('./src')
   .destination('./public')
-  .use(require('../../lib')())
+  .use(require('../../lib')({
+    engine: 'jade'
+  }))
 
 if (module.parent) {
   module.exports = app
