@@ -15,6 +15,8 @@
   * support for layout templates. (layouts/)
   * support for partials. (partials/)
 
+[Documentation →](doc/index.md)
+
 <br>
 
 ## Quick start
@@ -35,11 +37,20 @@ Update `package.json`:
 }
 ```
 
+Make your first page:
+
+```js
+mkdir src
+echo "Hello there." > src/index.html
+```
+
 Run:
 
 ``` sh
 npm start           # start server (development)
 npm run prepublish  # build output (production)
 ```
+
+[Documentation →](doc/index.md)
 
 [Metalsmith]: http://metalsmith.io/
