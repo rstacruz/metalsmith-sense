@@ -24,7 +24,7 @@ npm install --save bootstrap-sass
 
 You can use npm packages by specifying their relative path from your source files.
 
-```
+```scss
 // src/assets/style.scss
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap'
 ```
