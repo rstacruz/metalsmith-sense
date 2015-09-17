@@ -8,6 +8,7 @@ describe('fixture/sass:', function () {
 
   before(function () {
     data = fixture.file('sass/public/style.css')
+    data = data.replace(/\s/g, '') // normalize whitespace
   })
 
   it('parses sass', function () {
