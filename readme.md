@@ -15,7 +15,7 @@
   * support for layout templates. (layouts/)
   * support for partials. (partials/)
 
-[Documentation →](doc/index.md)
+[Documentation →](doc/)
 
 <br>
 
@@ -51,6 +51,6 @@ npm start           # start server (development)
 npm run prepublish  # build output (production)
 ```
 
-[Documentation →](doc/index.md)
+[Documentation →](doc/)
 
 [Metalsmith]: http://metalsmith.io/
