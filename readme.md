@@ -14,10 +14,6 @@
   * compile from modern templating languages. (handlebars, jade)
   * support for layout templates. (layouts/)
   * support for partials. (partials/)
-* JavaScript:
-  * a reasonable build/concat system.
-  * transpile using modern babel.
-  * compress in production.
 
 <br>
 
