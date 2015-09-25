@@ -15,6 +15,8 @@
   * support for layout templates. (layouts/)
   * support for partials. (partials/)
 
+Compatible with Metalsmith 2.x.
+
 [Documentation →](doc/)
 
 <br>
