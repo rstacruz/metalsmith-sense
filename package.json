@@ -27,12 +27,12 @@
   "devDependencies": {
     "bootstrap-sass": "^3.3.5",
     "expect": "^1.10.0",
-    "istanbul": "^0.3.17",
-    "metalsmith": "^2.0.1",
-    "mocha": "^2.2.5",
+    "istanbul": "^0.3.21",
+    "metalsmith": "^2.1.0",
+    "mocha": "^2.3.3",
     "mocha-standard": "^1.0.0",
     "promise": "^7.0.4",
-    "standard": "^5.0.2"
+    "standard": "^5.3.1"
   },
   "directories": {
     "example": "example",
