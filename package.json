@@ -9,7 +9,7 @@
   "dependencies": {
     "deep-readdir": "^0.2.0",
     "gnode": "^0.1.1",
-    "handlebars": "^3.0.3",
+    "handlebars": "^4.0.3",
     "jade": "^1.11.0",
     "markdown-it-attrs": "0.0.3",
     "metalsmith-autoprefixer": "^1.1.0",
