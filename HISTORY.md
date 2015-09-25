@@ -1,3 +1,10 @@
+## [v0.4.1]
+> Sep 26, 2015
+
+* Lock dependency package versions to ensure future compatibility.
+
+[v0.4.1]: https://github.com/rstacruz/metalsmith-sense/compare/v0.4.0...v0.4.1
+
 ## [v0.4.0]
 > Sep 26, 2015
 
