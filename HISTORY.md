@@ -1,3 +1,10 @@
+## [v0.5.0]
+> Nov  6, 2015
+
+* [handlebars] v4.0.4
+* [metalsmith-layouts] v1.4.2
+* [metalsmith-markdownit] v0.1.3
+
 ## [v0.4.1]
 > Sep 26, 2015
 
@@ -34,3 +41,9 @@
 > Aug 14, 2015
 
 * Initial release.
+
+[metalsmith-layouts]: https://www.npmjs.com/package/metalsmith-layouts
+[metalsmith-markdownit]: https://www.npmjs.com/package/metalsmith-markdownit
+[handlebars]: https://www.npmjs.com/package/handlebars
+
+[v0.5.0]: https://github.com/rstacruz/metalsmith-sense/compare/v0.4.1...v0.5.0
