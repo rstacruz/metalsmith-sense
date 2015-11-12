@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "bootstrap-sass": "3.3.5",
-    "expect": "1.12.2",
+    "expect": "1.13.0",
     "istanbul": "0.4.0",
     "metalsmith": "2.1.0",
     "mocha": "2.3.3",
