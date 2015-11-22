@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "gnode": "0.1.1",
-    "handlebars": "4.0.4",
+    "handlebars": "4.0.5",
     "jade": "1.11.0",
     "markdown-it-attrs": "0.0.3",
     "metalsmith-autoprefixer": "1.1.0",
