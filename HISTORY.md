@@ -4,6 +4,7 @@
 * Add `metalsmith-sense/sass` as a Sass-only plugin
 * Add `metalsmith-sense/html` as an HTML-only plugin
 * Add [markdown-it-decorate]
+* Remove [markdown-it-attrs] - it wasn't working very consistently, and decorate works better
 * Update [handlebars] v4.0.4
 * Update [metalsmith-layouts] v1.4.2
 * Update [metalsmith-markdownit] v0.1.3

@@ -1,3 +1,5 @@
 # Hello world
 
-## H2 with class {.myclass}
+## H2 with class
+
+<!--{h2:.myclass}-->

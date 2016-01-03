@@ -61,6 +61,7 @@ Available options:
 - `sass` — *(Object)* options to pass onto the Sass parser
 - `markdown` — *(Object)* options to pass onto markdown-it. defaults to `html: true, typographer: true`
 - `engine` — *(String)* either `'jade'` or `'handlebars'`. defaults to handlebars.
+- `partials` — *(String)* directory for handlebars partials. defaults to `partials`
 
 ## Thanks
 

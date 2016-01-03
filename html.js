@@ -19,7 +19,6 @@ module.exports = stack(function senseLayout (options) {
 
   var markdown = require('metalsmith-markdownit')(markdownOptions)
   markdown.parser
-    .use(require('markdown-it-attrs'))
     .use(require('markdown-it-decorate'))
 
   return ware()
@@ -43,7 +42,7 @@ module.exports = stack(function senseLayout (options) {
     .use(require('./lib/filters/rename_extensions')({
       from: '.hbs', to: '.html'
     }))
-    // TODO: allow both jade and handlebars layouts
+    // Layouts (only useful handlebars)
     .use(require('metalsmith-layouts')({
       engine: options.engine || 'handlebars'
     }))

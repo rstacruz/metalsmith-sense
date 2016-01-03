@@ -14,7 +14,7 @@ describe('fixture/markdown:', function () {
     expect(data).toInclude('<h1>Hello world</h1>')
   })
 
-  it('parses markdown attributes (markdown-it-attrs)', function () {
+  it('parses markdown attributes (markdown-it-decorate)', function () {
     expect(data).toMatch(/<h2 class=['"]myclass['"]>H2 with class/)
   })
 })
