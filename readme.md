@@ -6,7 +6,7 @@
 
 [Metalsmith] is a very useful static-site generator with almost all functionality provided by plugins. Most of the time, you will need the same set of functionality out of a site builder:
 
-* CSS (`metalsmith-sense/css`):
+* CSS (`metalsmith-sense/sass`):
   * compile using a modern pre-processor when needed. (*.sass, *.styl)
   * don't worry about vendor prefixes. (autoprefixer)
   * compress in production.
@@ -58,3 +58,43 @@ npm run prepublish  # build output (production)
 [Documentation →](doc/)
 
 [Metalsmith]: http://metalsmith.io/
+
+<br>
+
+## API
+
+This module provides 3 Metalsmith plugins:
+
+- `metalsmith-sense/sass` - for Sass compilation and such
+- `metalsmith-sense/html` - for Markdown/Jade/Handlebars, layouts, etc
+- `metalsmith-sense` - combination of both
+
+You can use them in `metalsmith.json`:
+
+```js
+{
+  "plugins": {
+    "metalsmith-sense/sass": {},
+    "metalsmith-sense/html": {}
+  }
+}
+```
+
+Or via JavaScript:
+
+```
+var app = Metalsmith(__dirname)
+  .source('./src')
+  .destination('./public')
+  .use(require('metalsmith-sense')())
+
+  // or use them separately:
+  .use(require('metalsmith-sense/sass')())
+  .use(require('metalsmith-sense/html')())
+```
+
+Available options:
+
+- `sass` — *(Object)* options to pass onto the Sass parser
+- `markdown` — *(Object)* options to pass onto markdown-it. defaults to `html: true, typographer: true`
+- `engine` — *(String)* either `'jade'` or `'handlebars'`. defaults to handlebars.

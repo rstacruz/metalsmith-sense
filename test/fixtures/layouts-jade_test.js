@@ -4,7 +4,7 @@ var build = require('../support/build')
 var data
 
 describe('fixture/layouts-jade:', function () {
-  build(fixture('layouts-jade'))
+  build(fixture('layouts-jade'), { engine: 'jade' })
 
   before(function () {
     data = fixture.file('layouts-jade/public/index.html')

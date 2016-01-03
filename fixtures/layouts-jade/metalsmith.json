@@ -2,6 +2,8 @@
   "source": "./src",
   "destination": "./public",
   "plugins": {
-    "../../index": {}
+    "../../index": {
+      "engine": "jade"
+    }
   }
 }

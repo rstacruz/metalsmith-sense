@@ -9,7 +9,7 @@ module.exports = function build (path, options) {
       this.ms = new Metalsmith(path)
         .source('./src')
         .destination('./public')
-        .use(require('../../lib')(options))
+        .use(require('../../index')(options))
     }
   })
 
