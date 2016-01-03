@@ -10,6 +10,7 @@
   * compile using a modern pre-processor when needed. (*.sass, *.styl)
   * don't worry about vendor prefixes. (autoprefixer)
   * compress in production.
+
 * HTML (`metalsmith-sense/html`):
   * compile from modern templating languages. (handlebars, jade)
   * support Markdown.
@@ -19,45 +20,7 @@
 
 Compatible with Metalsmith 2.x.
 
-[Documentation →](doc/)
-
-<br>
-
-## Quick start
-
-```js
-npm init
-npm install --save metalsmith metalsmith-sense metalsmith-start
-wget "https://raw.githubusercontent.com/rstacruz/metalsmith-sense/master/example/metalsmith.js" -O metalsmith.js
-```
-
-Update `package.json`:
-
-```js
-...
-"scripts": {
-  "prepublish": "node metalsmith.js",
-  "start": "metalsmith-start"
-}
-```
-
-Make your first page:
-
-```js
-mkdir src
-echo "Hello there." > src/index.html
-```
-
-Run:
-
-``` sh
-npm start           # start server (development)
-npm run prepublish  # build output (production)
-```
-
-[Documentation →](doc/)
-
-[Metalsmith]: http://metalsmith.io/
+[Documentation →](docs/)
 
 <br>
 
@@ -98,3 +61,16 @@ Available options:
 - `sass` — *(Object)* options to pass onto the Sass parser
 - `markdown` — *(Object)* options to pass onto markdown-it. defaults to `html: true, typographer: true`
 - `engine` — *(String)* either `'jade'` or `'handlebars'`. defaults to handlebars.
+
+## Thanks
+
+**metalsmith-sense** © 2015+, Rico Sta. Cruz. Released under the [MIT] License.<br>
+Authored and maintained by Rico Sta. Cruz with help from contributors ([list][contributors]).
+
+> [ricostacruz.com](http://ricostacruz.com) &nbsp;&middot;&nbsp;
+> GitHub [@rstacruz](https://github.com/rstacruz) &nbsp;&middot;&nbsp;
+> Twitter [@rstacruz](https://twitter.com/rstacruz)
+
+[MIT]: http://mit-license.org/
+[contributors]: http://github.com/rstacruz/metalsmith-sense/contributors
+[Metalsmith]: http://metalsmith.io/
