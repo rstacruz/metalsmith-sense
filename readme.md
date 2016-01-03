@@ -6,12 +6,14 @@
 
 [Metalsmith] is a very useful static-site generator with almost all functionality provided by plugins. Most of the time, you will need the same set of functionality out of a site builder:
 
-* CSS:
+* CSS (`metalsmith-sense/css`):
   * compile using a modern pre-processor when needed. (*.sass, *.styl)
   * don't worry about vendor prefixes. (autoprefixer)
   * compress in production.
-* HTML:
+* HTML (`metalsmith-sense/html`):
   * compile from modern templating languages. (handlebars, jade)
+  * support Markdown.
+  * allow HTML classes with [markdown-it-decorate](https://www.npmjs.com/package/markdown-it-decorate).
   * support for layout templates. (layouts/)
   * support for partials. (partials/)
 
