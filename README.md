@@ -1,3 +1,14 @@
+### Deprecated
+
+Consider these instead:
+
+- [metalsmith-sense-sass](https://github.com/rstacruz/metalsmith-sense-sass)
+- [metalsmith-jstransformer](https://www.npmjs.com/package/metalsmith-jstransformer)
+- [metalsmith-templates](https://www.npmjs.com/package/metalsmith-templates)
+- [metalsmith-in-place](https://www.npmjs.com/package/metalsmith-in-place)
+
+----
+
 # metalsmith-sense
 
 > A batteries-included distribution of metalsmith available as a plugin.
